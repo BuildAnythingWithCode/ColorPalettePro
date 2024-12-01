@@ -4,3 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#color-section {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+}

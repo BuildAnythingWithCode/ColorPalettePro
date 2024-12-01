@@ -13,8 +13,29 @@ body {
   width: 100vw;
 }
 
+h1 {
+  margin: 10px;
+}
+
+button {
+  margin: 10px;
+}
+
+#color-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 50vw;
+  margin: 10px;
+}
+
 .color {
   width: 100px;
   height: 100px;
   background-color: rgb(0, 0, 0);
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
